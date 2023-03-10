@@ -1,0 +1,38 @@
+body{
+    background: url("..//images/Background.png")
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+div{
+    background-color: #dd4814;
+    width: 50%;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 25px;
+    font-family: 'Shrikhand', cursive;
+    opacity: 0.8;
+}
+
+button{
+    background: rgba(50,50,50);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+
+    /* font-family: 'Tilt Prism', cursive; */
+}
+
+p{
+    font-size: 2.9 rem;
+}
+
+i{
+    font-size: 300%;
+    color: white;
+}

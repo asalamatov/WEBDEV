@@ -1,0 +1,26 @@
+/* body{
+    background-image: url("../images/bg.png");
+} */
+
+body{
+    background: url("../images/bgcat.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+div{
+    background-color: #27d9e7;
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-family: 'Tilt Prism', cursive;
+
+    font-size: 3rem;
+}
