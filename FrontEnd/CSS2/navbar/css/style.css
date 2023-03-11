@@ -1,0 +1,77 @@
+ul li a:link, ul li a:visited{
+    display: inline-block;
+    color: orange;
+    padding: 10px 20px;
+
+}
+
+
+li{
+    float:left;
+}
+
+li a:hover{
+    background-color: red;
+}
+
+ul, li, ul li{
+    display: inline-block;
+    margin:5px;
+    text-decoration: none;
+}
+
+ul{
+    width:95%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type:none;
+}
+
+
+#navbar{
+    background-color: darkslategray;
+}
+
+.right-side-link{
+    float:right;
+}
+
+
+/* ******************** */
+div{
+    height: 500px;
+    /* background-color: grey; */
+    margin: 0;
+    padding:0;
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+h1{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+.text {
+    width: 500px;
+    position: relative;
+    top:30%;
+    margin: 0 auto;
+}
+
+
+/* ***************************** */
+#navbar{
+    height: auto;
+    background-color: darkslategray;
+}
