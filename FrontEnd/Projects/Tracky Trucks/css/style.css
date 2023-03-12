@@ -208,7 +208,7 @@ h6 {
 /*----start page content----*/
 #page_content{
 	padding:10px;
-	background:url(../images/pattern.jpg) repeat;
+	background-color: rgb(157, 156, 156);
 	border:#a4a5a5 solid 1px;
 }
 
@@ -216,7 +216,7 @@ h6 {
 	width:625px;
 	float:right;
 	padding:15px;
-	border-left:#d4d093 solid 1px;
+	border-left:#ff6633 solid 1px;
 }
 
 #page_content .right_section .top_content{
@@ -255,7 +255,7 @@ a.btn:hover{
 }
 
 .border_left{
-	border-left:#6e7678 dotted 1px;
+	border-left:#ff6633 dotted 1px;
 	padding-left:20px;
 }
 
@@ -315,18 +315,23 @@ a.btn:hover{
 #footer{
 	clear:both;
 	margin-top:18px;
-	padding:15px 0 12px 0;
+	padding:15px 0 15px 0;
 	height:25px;
 	text-align:center;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	line-height:17px;
 	background: rgb(50,50,50);
-	color: #ff6633;
+	color: white;
+	font-size: medium;
+}
+
+#footer p{
+	color:rgb(50,50,50);
 }
 
 #footer a{
-	color: #ff6633;
+	color: rgb(50,50,50);
 	text-decoration:none;
 }
 
