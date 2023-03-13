@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+</head>
+<body>
+    <h1>Re-Declaring Varibles</h1>
+    <p>You can re-declare variable with "var" <br> and it won't lose its value </p>
+    <p id="demo"></p>
+
+    <p>
+        but, if you use <i><u>let</u></i> or <i><u>const</u></i> it will not work
+    </p>
+    <script>
+        var s = 'helloWorld';
+        var s;
+        document.getElementById('demo').innerHTML = s;
+    </script>
+</body>
+</html>
