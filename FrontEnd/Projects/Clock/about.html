@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Hex-Clock</title>
+    <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Catamaran:wght@100&family=Shrikhand&family=Tilt+Prism&display=swap');
+
+        #logo{
+            text-align: left;
+            margin:0;
+        }
+        body{
+            background-color: #fff;
+            text-align: center;
+            color: white;
+            font-family: 'Bungee Shade', cursive;;
+        }
+        h1{
+            margin: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="logo">A-Z Tech</h1>
+
+    <h1>Clock That Changes it's color<br>according to the hex value.</h1>
+    <script>
+        var d, h, m, s, clock, clr;
+
+    function cloky(){
+        d = new Date();
+        h = d.getHours();
+        m = d.getMinutes();
+        s = d.getSeconds();
+
+
+    if (h<=9){
+        h = '0' + h;
+    }if (m<=9){
+        m = '0' + m;
+    }if (s<=9){
+        s = '0' + s;
+    }
+
+    clr = "#" + s + m + h;
+
+    document.body.style.background = clr;
+
+    setTimeout(cloky, 1000);
+    }
+    cloky();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

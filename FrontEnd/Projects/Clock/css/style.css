@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Catamaran:wght@100&family=Shrikhand&family=Tilt+Prism&display=swap');
+
+
+html, body{
+    height: 100%;
+}
+
+#clock{
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
+
+    position: relative;
+    top:50%;
+    margin-top: -63.375px;
+    text-align: center;
+}
+
+
