@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Shrikhand&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
+    <style>
+        .btn{
+            margin:2px;
+        }
+        .btn-fb{
+            color: white;
+            background-color: #3b5988;
+         }
+
+         .btn-tw{
+            color: white;
+            background-color: #55acee;
+         }
+         
+         .btn-li{
+            color: white;
+            background-color: #0a66c2;
+         }
+
+         .btn-gh{
+            color: white;
+            background-color: #161b22;
+         }
+         /*hover*/
+         .btn-fb:hover{
+            color: white;
+            background-color: #4c6a99;
+         }
+
+         .btn-tw:hover{
+            color: white;
+            background-color: #66bdff;
+         }
+         
+         .btn-li:hover{
+            color: white;
+            background-color: #1b77d3;
+         }
+
+         .btn-gh:hover{
+            color: white;
+            background-color: #272c33;
+         }
+
+         .social-button .btn{
+            width: 115px;
+         }
+
+         .container-fluid{
+            padding-right: 180px;
+            padding-left: 180px;
+         }
+
+         h1, i{
+            color: white;
+         }
+
+         @media (max-width=1400px){
+            .navbar{    
+               padding-right: 0;
+               padding-left: 0;
+            }
+         }
+    </style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">A-Z Tech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li> -->
+    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Log In
+                        </a>
+                        <ul id="login" class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        Log In Via:
+                                        <div class="social-button">
+                                            <a href="#" class="btn btn-fb"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                                            <a href="#" class="btn btn-tw"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                                            <a href="#" class="btn btn-li"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                                            <a href="#" class="btn btn-gh"><i class="fa-brands fa-github"></i> GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+
+
+
+
+
+                      <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                      </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+    
+              </div>
+            </div>
+        </nav>
+
+
+    <div class="container center">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa-regular fa-square fa-stack-2x"></i>
+                        <i class="fa-brands fa-twitter fa-stack-1x"></i>
+                    </span>
+                </h2>
+                <h1>A-Z Tech Is Coming Soon.</h1>
+                <p>Waiting is not easy but just try it this time.</p>
+                <button class="btn btn-success btn-lg">
+                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                    <br>Click Me</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

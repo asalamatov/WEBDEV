@@ -1,0 +1,41 @@
+/* https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80
+ */
+
+/* h1{
+   font-family: 'Catamaran', sans-serif;
+} */
+
+html{
+   height: 100%;
+}
+
+.navbar-brand{
+   color:black;
+}
+
+body{
+   background: url("https://images.unsplash.com/photo-1417733403748-83bbc7c05140?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+   background-size: cover;
+   background-position: center;
+   font-family: 'Catamaran', sans-serif;;
+}
+
+.center{
+   text-align: center;
+   padding-top: 15%;
+}
+
+h1, p{
+   color: white;
+}
+
+#login{
+   min-width: 250;
+   border-bottom-color: rgba(255,255,255,0.7);
+   padding: 14px;
+}
+
+#login .social-button{
+   margin: 12px 0;
+}
+
