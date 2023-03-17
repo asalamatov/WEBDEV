@@ -1,0 +1,12 @@
+body{
+    background-color: green;
+}
+
+.center{
+    text-align: center;
+}
+
+.center button{
+    font-size: large;
+    background-color: pink;
+}
