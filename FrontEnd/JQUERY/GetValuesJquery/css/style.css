@@ -1,0 +1,27 @@
+body{
+    background-color: green;
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    background-color: skyblue;
+}
+
+.center button{
+    font-size: 50px;
+    background-color: pink;
+}
+
+.center input{
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
